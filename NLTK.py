@@ -7,5 +7,5 @@ tokens = nltk.word_tokenize(prompt)
 print(f"Tokenized prompt :- \n{tokens}")
 
 # POS Tagging
-tags = nltk.pos_tag(prompt)
+tags = nltk.pos_tag(tokens)
 print(f'POS tagging : \n{tags}')
